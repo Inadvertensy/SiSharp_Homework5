@@ -31,7 +31,7 @@ void SumOfEvenNumbers(int [] array)
         }
     }
     
-    System.Console.WriteLine(count);
+    System.Console.WriteLine($"Sum of even numbers in array is .... {count}");
 } 
 
  SumOfEvenNumbers(EnterRandomArray());

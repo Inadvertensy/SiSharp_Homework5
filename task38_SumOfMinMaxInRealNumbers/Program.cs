@@ -38,7 +38,7 @@ void SumOfMinAndMax(double [] array)
     }
     SumMinMAx=array[maxPosition]-array[minPosition];
    
-    System.Console.WriteLine(SumMinMAx);
+    System.Console.WriteLine($"The difference between maximum and minimum element is... {SumMinMAx}");
 }
 
 SumOfMinAndMax(EnterRandomArray());

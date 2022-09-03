@@ -29,6 +29,6 @@ void SumOfNotEvenPositions(int [] array)
         count+=array[j];
         }
     }
-    System.Console.WriteLine(count);
+    System.Console.WriteLine($"sum of elements in odd positions is...{count}");
 } 
  SumOfNotEvenPositions(EnterRandomArray());
